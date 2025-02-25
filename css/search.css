@@ -1,0 +1,25 @@
+
+body {
+    background: #ff0000;
+    display: flex; /* uses Flexbo which responds to different screen
+    sizes*/
+    align-items: center; /* vertically centered*/
+    justify-content: center; /* horizontally center */
+    height: 100vh; /* setting body height to 100% */
+    margin: 0;
+}
+
+
+input {
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    padding: 15px;
+    border: 0;
+    background-color: #fffff;
+}
+.btn {
+    background-color: white;
+    border: 0;
+    font-size: 25px;
+}
