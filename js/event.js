@@ -11,5 +11,10 @@ element1.addEventListener('dblclick', ()=>{
 
 element2.addEventListner('mousover', ()=>{
     element2.style.color = "green"
+    element2.style.backgroundColor = "blue"
+})
+
+element2.addEventListener('mousout',()=>{
+    element2.style.color = "white"
     element2.style.backgroundColor = "#BB33BB"
 })
