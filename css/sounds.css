@@ -6,6 +6,27 @@ body{
     background-color: rgb(161, 100, 223);
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+.btn {
+    font-family: "Poppins", sans-serif;
+    background-color: rebeccapurple;
+    margin: 10px;
+    color: rgb(255,255,255);
+    padding: 5 px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
 
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
 }
