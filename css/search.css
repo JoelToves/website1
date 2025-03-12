@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 body {
     background: #ff0000;
     display: flex; /* uses Flexbo which responds to different screen
@@ -9,7 +12,6 @@ body {
     margin: 0;
 }
 
-
 input {
     height: 45px;
     width: 200px;
@@ -19,7 +21,8 @@ input {
     background-color: #fffff;
 }
 .btn {
+    position: absolute;
     background-color: white;
     border: 0;
-    font-size: 25px;
+    font-size: 50px;
 }
