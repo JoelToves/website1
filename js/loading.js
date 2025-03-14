@@ -7,12 +7,12 @@ let int = setInterval(blurring, 75)
 
 function blurring() {
     load = load + 1
-    if (load > 99){
+    if (load >= 99){
         clearInterval(int)
     }
     loadText.innerText = `${load}%`
-    bg.style.filter = `blur(${50 - (load / 2)}px)`
     loadText.style.opacity = `${1 - load/100}`
+    bg.style.filter = `blur(${50 - (load / 2)}px)`
 }
 
 
