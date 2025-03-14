@@ -59,7 +59,11 @@ body {
 
 .nav.active .container {
     padding: 10px 0;
-    
+
+}
+.nav a.current, .nav a:hover {
+    color: #c0392b;
+    font-weight: bold;
 }
 .hero {
     background-image: url('../images/night.avif');
