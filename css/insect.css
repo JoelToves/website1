@@ -26,3 +26,7 @@ h1 {
     font-family: inherit;
     cursor: pointer;
 }
+.btn:hover {
+    opacity: 0.9;
+    
+}
