@@ -11,5 +11,18 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
-    
+
+}
+
+h1 {
+    line-height: 1.4;
+}
+
+.btn {
+    border: 0;
+    background-color: white;
+    color: #516dff;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
 }
