@@ -62,8 +62,16 @@ function getRandomLocation(){
     const x = Math.random() * width
     const y = Math.random() * height
     return(x,y)
-    insect.addEventListener('click', () => {
-        score = score + 1
-        scoreEl.innerHTML = `Score: ${score}`
-    })
+    insect.addEventListener('click', catchInsect)
+}
+
+
+function catchInsect() {
+    increaseScore()
+    this.classList.add('caught')
+}
+
+function increaseScore() {
+    score = score + 1
+    scoreEl.HTML = `Score: ${score}`
 }
