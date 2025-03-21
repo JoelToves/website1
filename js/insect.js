@@ -58,5 +58,6 @@ function createInsect(){
 function getRandomLocation(){
     const width = window.innerWidth
     const height = window.innerheight
-    console.log
+    console.log(Math.random())
+    const x = Math.random()
 }
