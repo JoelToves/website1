@@ -114,6 +114,10 @@ h1 {
     opacity: 1;
 }
 
+.insect img {
+    width: 100px;
+    height: 100px;
+}
 .insect {
     cursor: pointer;
     display: flex;
