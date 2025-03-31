@@ -84,3 +84,7 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.container.grow {
+    animation: grow 
+}
