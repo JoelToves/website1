@@ -27,6 +27,7 @@ choose_insect_btns.forEach(btn => {
 
 function startGame() {
     setInterval(increaseTime, 1000)
+    createInsect()
 }
 
 function increaseTime() {
@@ -59,10 +60,10 @@ function getRandomLocation(){
     const width = window.innerWidth
     const height = window.innerheight
     console.log(Math.random())
-    const x = Math.random() * width
-    const y = Math.random() * height
+    const x = Math.random() * (width - 200) + 100
+    const y = Math.random() * (height - 200) + 100
     return(x,y)
-    insect.addEventListener('click', catchInsect)
+
 }
 
 
@@ -79,5 +80,9 @@ function addInsects() {
 
 function increaseScore() {
     score = score + 1
+    if (score == 10){
+        message.classList.add('visible')
+    }
+    console.log(score)
     scoreEl.HTML = `Score: ${score}`
 }
