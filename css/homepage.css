@@ -1,3 +1,17 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    color: rgb(22,22,22);
+    padding-bottom: 50px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
