@@ -27,7 +27,7 @@ body {
 }
 
 .circle {
-    background-color: navy;
+    background-color: black;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -51,8 +51,9 @@ body {
     z-index: 2;
     border-radius: 50%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -10;
+    left: -10;
+    z-index: -2;
 
 
 }
